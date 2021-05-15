@@ -39,3 +39,21 @@ CREATE table dept_manager(
 
 -- Import table 
 SELECT * FROM dept_manager
+
+-- Create Data Emp
+Create table dept_emp(
+	emp_no INT NOT NUll,
+	dept_no VARCHAR(10),
+	foreign key (emp_no) references employees (emp_no),
+    foreign key (dept_no) references departments (dept_no)
+);
+
+-- Import data
+SELECT * FROM dept_emp
+
+-- Create Salaries Table 
+Create table salaries(
+	emp_no INT NOT NULL,
+	salary INT NOT NULL,
+    foreign key (emp_no) references employees (emp_no)
+);
