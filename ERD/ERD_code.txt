@@ -1,0 +1,42 @@
+dept_emp
+----
+employee_number INT FK >- employees.employee_number 
+department_number VARCHAR FK >- departments.department_number
+from_date DATE 
+to_date DATE 
+
+departments
+----
+department_number PK VARCHAR 
+department_name VARCHAR 
+
+employees 
+----
+employee_number PK int
+employee_title_id DATE
+birthday DATE
+first_name VARCHAR
+last_name VARCHAR
+sex VARCHAR
+hire_date DATE
+
+dept_manager 
+------------
+department_number VARCHAR FK >- departments.department_number
+employee_number INT FK >- employees.employee_number
+from_date DATE 
+to_date DATE 
+
+salaries as os
+----
+employee_number INT FK >- employees.employee_number
+salary BIGINT
+from_date DATE 
+to_date DATE 
+
+titles
+----
+title_id INT FK >- employees.employee_number
+title VARCHAR
+from_date DATE 
+to_date DATE 
