@@ -6,6 +6,8 @@ This assignment focused on creating a database from employee csv files. Sql was 
 1. List the following details of each employee: employee number, last name, first name, sex, and salary.
 
 2. List first name, last name, and hire date for employees who were hired in 1986.
+ 
+<img width="193" alt="sql_img_3" src="https://user-images.githubusercontent.com/46588030/138524614-cd205ab2-2695-4b05-b1a6-ffc7860926ec.png">
 
 3. List the manager of each department with the following information: department number, department name, the manager's employee number, last name, first name.
 
@@ -21,7 +23,7 @@ This assignment focused on creating a database from employee csv files. Sql was 
 
 
 
-<img width="193" alt="sql_img_3" src="https://user-images.githubusercontent.com/46588030/138524614-cd205ab2-2695-4b05-b1a6-ffc7860926ec.png">
+
 
 
 <img width="389" alt="SQl_img_4" src="https://user-images.githubusercontent.com/46588030/138524631-64ce6c84-4007-4470-807a-79d0a875819f.png">
