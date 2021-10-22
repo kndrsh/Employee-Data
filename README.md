@@ -1,6 +1,8 @@
 # sql
 This assignment focused on creating a database from employee csv files. Sql was used to build a database and create queries to discover more insights about the employees.
 
+<img width="482" alt="sql_img_2" src="https://user-images.githubusercontent.com/46588030/138524096-b940aa99-2234-420b-bbae-35b5a5938153.png">
+
 1. List the following details of each employee: employee number, last name, first name, sex, and salary.
 
 2. List first name, last name, and hire date for employees who were hired in 1986.
@@ -17,7 +19,6 @@ This assignment focused on creating a database from employee csv files. Sql was 
 
 8. In descending order, list the frequency count of employee last names, i.e., how many employees share each last name.
 
-<img width="482" alt="sql_img_2" src="https://user-images.githubusercontent.com/46588030/138524096-b940aa99-2234-420b-bbae-35b5a5938153.png">
 
 
 <img width="193" alt="sql_img_3" src="https://user-images.githubusercontent.com/46588030/138524614-cd205ab2-2695-4b05-b1a6-ffc7860926ec.png">
